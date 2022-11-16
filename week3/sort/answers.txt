@@ -1,0 +1,25 @@
+sort1 uses: Bubble Sort
+
+How do you know?: i created a google sheet that plots each of the algorithms
+running times per list input. sort2 is consistently better in all three 50,000 item lists
+after running multiple tests. sort1 outperforms sort3 in an already sorted list, which
+it should given its lower bound running time of n that is smaller than selection sort's
+lower bound running time of n^2.
+
+sort2 uses: Merge Sort
+
+How do you know?: i created a google sheet that plots each of the algorithms
+running times per list input. sort2 is consistently better in all three 50,000 item lists
+after running multiple tests. sort1 outperforms sort3 in an already sorted list, which
+it should given its lower bound running time of n that is smaller than selection sort's
+lower bound running time of n^2.
+
+sort3 uses: Selection Sort
+
+How do you know?: i created a google sheet that plots each of the algorithms
+running times per list input. sort2 is consistently better in all three 50,000 item lists
+after running multiple tests. sort1 outperforms sort3 in an already sorted list, which
+it should given its lower bound running time of n that is smaller than selection sort's
+lower bound running time of n^2.
+
+link to the spreadsheet: https://docs.google.com/spreadsheets/d/1Wcd4X_sT8qa_69WyE0onobApTFefWYGGSEPQt7eVc-k/edit?usp=sharing

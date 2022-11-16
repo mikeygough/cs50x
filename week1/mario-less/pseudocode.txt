@@ -1,0 +1,44 @@
+do while {
+    int height = get_int("Height: ");
+    while height >= 1 && height <= 8
+}
+
+// while loops
+while (condition)
+{
+    // something happens
+}
+
+// do while loops
+do
+{
+    // something happens
+}
+while (condition);
+
+// example do-while loop
+do
+{
+    n = get_int("Positive Number: ");
+}
+while (n < 1);
+
+// boolean examples
+x == 0
+x < 0
+x > 0
+x == 0 || x == 1
+x > 0 && x < 10
+
+// for loops
+for (initialization; condition; update)
+{
+    // code to repeat
+}
+
+// for loop example
+for (int i = 0; i < 10; i++)
+{
+    printf("hello!\n");
+}
+

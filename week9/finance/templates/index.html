@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+
+    <div class="mb-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for position in positions %}
+                    {% if position.share_qty > 0 %}
+                        <tr>
+                            <td>{{ position.symbol }} </td>
+                            <td>{{ position.name }} </td>
+                            <td>{{ position.share_qty }} </td>
+                            <td>{{ position.current_price }} </td>
+                            <td>{{ position.current_value }} </td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mb-3">
+        <h3>Current Cash: {{ current_cash }}</h3>
+    </div>
+
+    <div class="mb-3">
+        <h3>Total Portfolio Value {{ total_portfolio_value }}</h3>
+    </div>
+
+{% endblock %}
