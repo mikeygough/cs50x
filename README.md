@@ -14,3 +14,6 @@ an introductory computer science course at Harvard that teaches students how to 
   <li>HTML, CSS & Javascript</li>
   <li>Flask</li>
 </ul>
+
+<img src="cs50x-certificate.png"
+     alt="cs50x-certificate"/>
